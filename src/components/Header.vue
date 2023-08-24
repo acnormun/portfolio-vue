@@ -21,10 +21,7 @@ import {profileData} from '@/data/profile'
 
 const name = ref("");
 const title = ref("");
-const width = ref(window.innerWidth);
-const typeScreen = computed(() => {
-  return width.value <750 ? 'mobile' : 'web'
-})
+
 
 const screenTypes = {
   mobile: {
@@ -57,6 +54,11 @@ const screenTypes = {
 
 const data = reactive(profileData)
 const profile = ref<IContact[]>([]);
+
+const width = ref(window.innerWidth);
+const typeScreen = computed(() => {
+  return width.value <750 ? 'mobile' : 'web'
+})
 const handleResize = () => {
   width.value = window.innerWidth
 }

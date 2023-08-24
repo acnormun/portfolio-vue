@@ -62,6 +62,8 @@ export const profileData = {
     {
       id: 'education',
       title: 'Education',
+      hasChildren: false,
+      children: null,
       content: [
         {
           id:"1",
@@ -80,6 +82,8 @@ export const profileData = {
     {
       id: 'experience',
       title: 'Experience',
+      hasChildren: false,
+      children: null,
       content: [
         {
           id:"1",
@@ -112,7 +116,47 @@ export const profileData = {
     {
       id: "projects",
       title: `Projects`,
+      hasChildren: true,
     }
-
-  ]
+  ],
+  projects: {
+    id: 'projects',
+    list: [
+      {
+        id: 1,
+        title: 'eii',
+        link: '',
+        image: '',
+        icon: ''
+      },
+      {
+        id: 2,
+        title: 'alooo',
+        link: '',
+        image: '',
+        icon: ''
+      },
+      {
+        id: 3,
+        title: 'alooo',
+        link: '',
+        image: '',
+        icon: ''
+      },
+      {
+        id: 4,
+        title: 'alooo',
+        link: '',
+        image: '',
+        icon: ''
+      },
+      {
+        id: 5,
+        title: 'alooo',
+        link: '',
+        image: '',
+        icon: ''
+      }
+    ]
+  }
 };

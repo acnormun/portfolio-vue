@@ -20,7 +20,10 @@
           </ul>
         </div>
       </v-expansion-panel-text>
-      
+
+      <v-expansion-panel-text v-if="panel.hasChildren">
+          <projects-vue/>
+      </v-expansion-panel-text>
     </v-expansion-panel>
     </v-expansion-panels>
   </v-container>
@@ -29,6 +32,8 @@
 <script setup lang="ts">
 import { profileData } from "@/data/profile";
 import {reactive, ref } from "vue";
+import ProjectsVue from "./Projects.vue";
+
 
 const data = reactive(profileData)
 const panels = data.panels
