@@ -32,7 +32,7 @@ const screenTypes = {
     divisor: 'horizontal',
     avatar: {
       size: 200,
-      col: 11,
+      col: 10,
       offset: 2
     },
     info: {

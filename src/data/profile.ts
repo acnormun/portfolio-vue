@@ -57,5 +57,62 @@ export const profileData = {
       value: 'Node.js',
       icon: 'fa-brands fa-css3 fa-2x'
     }
+  ],
+  panels: [
+    {
+      id: 'education',
+      title: 'Education',
+      content: [
+        {
+          id:"1",
+          title:`UNIVERSIDADE FEDERAL DE MINAS GERAIS`,
+          subtitle: 'Bachelor of Mechanical Engineering, 2019 - 2024',
+          description: null
+        },
+        {
+          id: "2",
+          title:'ESTÁCIO DE SÁ',
+          subtitle: 'Bachelor of Software Engineering, 2022-2026',
+          description: null
+        }
+      ]
+    },
+    {
+      id: 'experience',
+      title: 'Experience',
+      content: [
+        {
+          id:"1",
+          title:`MGS - Minas Gerais Administração e Serviços S/A, 05/2023 - now`,
+          subtitle: 'Software Engineer - Frontend Developer',
+          description: [
+            {
+              id: 1,
+              value: 'sjdisdjoisdoijc'
+            },
+            {
+              id: 2,
+              value: 'sjdisdjoisdoijfdfbdfbdbc'
+            }
+          ]
+        },
+        {
+          id: "2",
+          title:'Defensoria Pública do Estado de Minas Gerais',
+          subtitle: 'Software Engineering Intern',
+          description:[
+            {
+              id:1,
+              value: ''
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id: "projects",
+      title: `Projects`,
+    }
+
   ]
 };

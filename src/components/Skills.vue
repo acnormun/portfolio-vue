@@ -1,9 +1,12 @@
 <template>
+  <v-container class="v-col-auto justify-center">
+
     <v-card height="50" class="ma-md-4 align-center v-row justify-space-around">
         <div v-for="skill in skills" :key="skill.id">
              <i :class="skill.icon"/>
         </div>
     </v-card>
+  </v-container>
 </template>
 
 <script setup lang="ts">

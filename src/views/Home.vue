@@ -1,11 +1,11 @@
 <template>
   <Header/>
-  <div class="d-flex justify-center w-100">
     <Skills/>
-  </div>
+    <Accordion/>
 </template>
 
 <script setup lang="ts">
 import Skills from "@/components/Skills.vue"
 import Header from "@/components/Header.vue";
+import Accordion from "@/components/Accordion.vue";
 </script>
