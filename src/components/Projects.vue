@@ -15,8 +15,8 @@
           :height="screenTypes[typeScreen].card.height"
           :width="screenTypes[typeScreen].card.width"
         >
-          <div class="d-flex fill-height align-center justify-center">
-            <v-img src="https://media.istockphoto.com/id/119869211/pt/foto/palomino-p%C3%B4nei-das-ilhas-shetland-equus-caballus-de-p%C3%A9-fundo-branco.jpg?s=612x612&w=0&k=20&c=yQgjItrkpkv2bSXO5kO8tLCz9PvJ6T79PHhMESnl014=">
+          <div class="d-flex fill-height align-center justify-center teste">
+            <v-img :src="project.image">
               <v-card-title>aloooo</v-card-title>
             </v-img>
           </div>
@@ -56,6 +56,7 @@ const screenTypes = {
     card: {
       width: 160,
       height: 160,
+
     }
   },
   web: {
@@ -68,3 +69,7 @@ const screenTypes = {
 
 
 </script>
+
+<style scoped>
+
+</style>

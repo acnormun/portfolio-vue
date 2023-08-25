@@ -184,27 +184,6 @@ export const profileData = {
         image: '',
         icon: ''
       },
-      {
-        id: 3,
-        title: 'alooo',
-        link: '',
-        image: '',
-        icon: ''
-      },
-      {
-        id: 4,
-        title: 'alooo',
-        link: '',
-        image: '',
-        icon: ''
-      },
-      {
-        id: 5,
-        title: 'alooo',
-        link: '',
-        image: '',
-        icon: ''
-      }
     ]
   }
 };
