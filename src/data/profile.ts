@@ -76,6 +76,12 @@ export const profileData = {
           title:'ESTÁCIO DE SÁ',
           subtitle: 'Bachelor of Software Engineering, 2022-2026',
           description: null
+        },
+        {
+          id: "3",
+          title:'GOOGLE',
+          subtitle: 'Project Management, 2023',
+          description: null
         }
       ]
     },
@@ -92,11 +98,19 @@ export const profileData = {
           description: [
             {
               id: 1,
-              value: 'sjdisdjoisdoijc'
+              value: 'Desenvolvimento e implementação de interfaces de usuário responsivas para sites e aplicativos, garantindo compatibilidade com diversos navegadores e dispositivos.'
             },
             {
               id: 2,
-              value: 'sjdisdjoisdoijfdfbdfbdbc'
+              value: 'Colaboração com a equipe de design para transformar wireframes e mockups em código funcional, garantindo a fidelidade do design original.'
+            },
+            {
+              id: 3,
+              value: 'Otimização de desempenho para melhorar a velocidade de carregamento e a experiência do usuário.'
+            },
+            {
+              id: 4,
+              value: 'Resolução de bugs e problemas de compatibilidade, garantindo um produto livre de erros.'
             }
           ]
         },
@@ -107,9 +121,43 @@ export const profileData = {
           description:[
             {
               id:1,
-              value: ''
+              value: 'Suporte ao desenvolvimento e implementação de recursos front-end para projetos web.'
+            },
+            {
+              id: 2,
+              value: 'Criação de interfaces de usuário interativas e responsivas.'
+            },
+            {
+              id: 3,
+              value: 'Organização e execução de testes de qualidade e correção de erros para garantir a entrega de produtos finais de alta qualidade.'
             }
           ]
+        }
+      ]
+    },
+    {
+      id: 'courses',
+      title: 'Courses & Certification',
+      hasChildren: false,
+      children: null,
+      content: [
+        {
+          id:"1",
+          title:`JavaScript Developer`,
+          subtitle: 'Digital Innovation One',
+          description: null
+        },
+        {
+          id: "2",
+          title:'Fullstack Web Developer - React & Node.js',
+          subtitle: 'Digital Innovation One',
+          description: null
+        },
+        {
+          id: "3",
+          title:'Vue.js 3 Developer',
+          subtitle: 'Alura',
+          description: null
         }
       ]
     },

@@ -45,6 +45,7 @@ const panels = data.panels
   background-color: transparent;
   color: white;
   border: 0.3px solid white;
+  margin: .5rem;
 }
 
 .panel:hover{

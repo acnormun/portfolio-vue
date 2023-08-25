@@ -55,7 +55,7 @@ const screenTypes = {
   mobile: {
     card: {
       width: 160,
-      height: 160
+      height: 160,
     }
   },
   web: {
