@@ -172,17 +172,24 @@ export const profileData = {
     list: [
       {
         id: 1,
-        title: 'eii',
-        link: '',
+        title: 'Proway Computers',
+        link: 'https://acnormun.github.io/proway-computers/produtos',
         image: '',
         icon: ''
       },
       {
         id: 2,
-        title: 'alooo',
-        link: '',
+        title: 'Star Trek - Fan Website',
+        link: 'https://star-trek-html.vercel.app/',
+        image: 'https://github.com/acnormun/portfolio-vue/blob/main/src/assets/img/projects/startrek.png?raw=true',
+        icon: 'fa-brands fa-square-js'
+      },
+      {
+        id: 3,
+        title: 'Timer',
+        link: 'https://02-ignite-timer-nu.vercel.app/',
         image: '',
-        icon: ''
+        icon: 'fa-brands fa-react'
       },
     ]
   }

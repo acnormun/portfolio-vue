@@ -16,7 +16,7 @@
           :width="screenTypes[typeScreen].card.width"
         >
           <div class="d-flex fill-height align-center justify-center teste">
-            <v-img :src="project.image">
+            <v-img :src="project.link">
               <v-card-title>aloooo</v-card-title>
             </v-img>
           </div>
