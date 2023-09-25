@@ -1,31 +1,23 @@
 <template>
-
-  <v-sheet
-  max-width="1800"
->
-  <v-slide-group
-    show-arrows
-  >
-    <v-slide-group-item
-      v-for="project in projects"
-      :key="project.id"
-    >
-    <v-card
-          class="ma-4"
-          :height="screenTypes[typeScreen].card.height"
-          :width="screenTypes[typeScreen].card.width"
-        >
-          <div class="d-flex fill-height align-center justify-center teste">
-            <v-img :src="project.link">
-              <v-card-title>aloooo</v-card-title>
-            </v-img>
-          </div>
-        </v-card>
-
-    </v-slide-group-item>
-  </v-slide-group>
-</v-sheet>
-
+  <v-sheet max-width="1800">
+    <v-slide-group show-arrows>
+      <v-slide-group-item v-for="project in projects" :key="project.id">
+        <v-btn height="100%" flat @click.prevent="rediect(project.link)">
+          <v-card
+            class="ma-4"
+            :height="screenTypes[typeScreen].card.height"
+            :width="screenTypes[typeScreen].card.width"
+          >
+            <v-card-section
+              class="d-flex fill-height align-center justify-center teste"
+            >
+              <v-img :src="project.image" />
+            </v-card-section>
+          </v-card>
+        </v-btn>
+      </v-slide-group-item>
+    </v-slide-group>
+  </v-sheet>
 </template>
 
 <script setup lang="ts">
@@ -34,42 +26,36 @@ import { computed, onMounted, onUnmounted, reactive, ref } from "vue";
 
 const width = ref(window.innerWidth);
 const typeScreen = computed(() => {
-  return width.value <750 ? 'mobile' : 'web'
-})
-const handleResize = () => {
-  width.value = window.innerWidth
-}
-
-onMounted(() => {
-  window.addEventListener('resize', handleResize)
+  return width.value < 750 ? "mobile" : "web";
 });
+const handleResize = () => {
+  width.value = window.innerWidth;
+};
+
 
 onUnmounted(() => {
-    window.removeEventListener('resize', handleResize)
-})
+  window.removeEventListener("resize", handleResize);
+});
 
-const data = reactive(profileData)
-const projects = data.projects.list
+const data = reactive(profileData);
+const projects = data.projects.list;
 
 const screenTypes = {
   mobile: {
     card: {
       width: 160,
       height: 160,
-
-    }
+    },
   },
   web: {
-    card:{
+    card: {
       width: 300,
-      height: 300
-    }
-  }
+      height: 300,
+    },
+  },
+};
+
+function rediect(link: string){
+  window.location.href = link
 }
-
-
 </script>
-
-<style scoped>
-
-</style>

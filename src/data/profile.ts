@@ -73,12 +73,6 @@ export const profileData = {
         },
         {
           id: "2",
-          title:'ESTÁCIO DE SÁ',
-          subtitle: 'Bachelor of Software Engineering, 2022-2026',
-          description: null
-        },
-        {
-          id: "3",
           title:'GOOGLE',
           subtitle: 'Project Management, 2023',
           description: null
@@ -93,43 +87,51 @@ export const profileData = {
       content: [
         {
           id:"1",
-          title:`MGS - Minas Gerais Administração e Serviços S/A, 05/2023 - now`,
+          title:`Defensoria Pública do Estado de Minas Gerais, 08/2022 - now`,
           subtitle: 'Software Engineer - Frontend Developer',
           description: [
             {
               id: 1,
-              value: 'Desenvolvimento e implementação de interfaces de usuário responsivas para sites e aplicativos, garantindo compatibilidade com diversos navegadores e dispositivos.'
+              value: 'Collaborated with cross-functional teams to develop and maintain dynamic web applications.'
             },
             {
               id: 2,
-              value: 'Colaboração com a equipe de design para transformar wireframes e mockups em código funcional, garantindo a fidelidade do design original.'
+              value: 'Translated design mockups and wireframes into responsive, pixel-perfect user interfaces.'
             },
             {
               id: 3,
-              value: 'Otimização de desempenho para melhorar a velocidade de carregamento e a experiência do usuário.'
+              value: 'Optimized website performance through code splitting, lazy loading, and other best practices.'
             },
             {
               id: 4,
-              value: 'Resolução de bugs e problemas de compatibilidade, garantindo um produto livre de erros.'
+              value: ' Integrated with RESTful APIs to fetch and display dynamic content on the front-end.'
+            },
+            {
+              id: 5,
+              value: 'Worked closely with UX designers to ensure seamless user experiences and meet accessibility standards.'
             }
           ]
         },
         {
           id: "2",
-          title:'Defensoria Pública do Estado de Minas Gerais',
-          subtitle: 'Software Engineering Intern',
+          title:'CNH Industrial',
+          subtitle: 'Purchasing Intern',
           description:[
             {
               id:1,
-              value: 'Suporte ao desenvolvimento e implementação de recursos front-end para projetos web.'
+              value: 'Conducted market research to identify potential suppliers and evaluated their product offerings and pricing.'
             },
             {
               id: 2,
-              value: 'Criação de interfaces de usuário interativas e responsivas.'
+              value: 'Assisted in processing purchase orders, ensuring accurate product specifications, quantities, and delivery schedules.'
             },
             {
               id: 3,
-              value: 'Organização e execução de testes de qualidade e correção de erros para garantir a entrega de produtos finais de alta qualidade.'
+              value: 'Supported the inventory management team in tracking stock levels and identifying reorder points.'
+            },
+            {
+              id: 4,
+              value: 'Participated in cross-functional meetings to enhance understanding of end-to-end procurement processes.'
             }
           ]
         }
@@ -174,7 +176,7 @@ export const profileData = {
         id: 1,
         title: 'Proway Computers',
         link: 'https://acnormun.github.io/proway-computers/produtos',
-        image: '',
+        image: 'https://github.com/acnormun/portfolio-vue/blob/main/src/assets/img/projects/proway.png?raw=true',
         icon: ''
       },
       {
@@ -188,7 +190,7 @@ export const profileData = {
         id: 3,
         title: 'Timer',
         link: 'https://02-ignite-timer-nu.vercel.app/',
-        image: '',
+        image: 'https://github.com/acnormun/portfolio-vue/blob/main/src/assets/img/projects/timer.png?raw=true',
         icon: 'fa-brands fa-react'
       },
     ]
