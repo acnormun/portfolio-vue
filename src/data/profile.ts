@@ -174,24 +174,24 @@ export const profileData = {
     list: [
       {
         id: 1,
-        title: 'Proway Computers',
-        link: 'https://acnormun.github.io/proway-computers/produtos',
-        image: 'https://github.com/acnormun/portfolio-vue/blob/main/src/assets/img/projects/proway.png?raw=true',
-        icon: ''
-      },
-      {
-        id: 2,
         title: 'Star Trek - Fan Website',
         link: 'https://star-trek-html.vercel.app/',
         image: 'https://github.com/acnormun/portfolio-vue/blob/main/src/assets/img/projects/startrek.png?raw=true',
         icon: 'fa-brands fa-square-js'
       },
       {
-        id: 3,
+        id: 2,
         title: 'Timer',
         link: 'https://02-ignite-timer-nu.vercel.app/',
         image: 'https://github.com/acnormun/portfolio-vue/blob/main/src/assets/img/projects/timer.png?raw=true',
         icon: 'fa-brands fa-react'
+      },
+      {
+        id: 3,
+        title: 'Proway Computers',
+        link: 'https://github.com/acnormun/proway-computers',
+        image: 'https://github.com/acnormun/portfolio-vue/blob/main/src/assets/img/projects/proway.png?raw=true',
+        icon: ''
       },
     ]
   }
