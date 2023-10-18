@@ -92,23 +92,27 @@ export const profileData = {
           description: [
             {
               id: 1,
-              value: 'Collaborated with cross-functional teams to develop and maintain dynamic web applications.'
+              value: 'Development of Vue applications with a focus on programming logic.'
             },
             {
               id: 2,
-              value: 'Translated design mockups and wireframes into responsive, pixel-perfect user interfaces.'
+              value: 'Use of Redux, Next JS, and API Context for state management.'
             },
             {
               id: 3,
-              value: 'Optimized website performance through code splitting, lazy loading, and other best practices.'
+              value: 'Practical application of RESTFul, JWT and oAuth2.0.'
             },
             {
               id: 4,
-              value: ' Integrated with RESTful APIs to fetch and display dynamic content on the front-end.'
+              value: ' Implementation of HTML5, CSS3 (Sass), Javascript, JSS, WebSockets, and Bootstrap/Material Design.'
             },
             {
               id: 5,
-              value: 'Worked closely with UX designers to ensure seamless user experiences and meet accessibility standards.'
+              value: 'Work with microfrontends and API integration.'
+            },
+            {
+              id: 6,
+              value: 'Efficient use of Git and Git Flow for version control.'
             }
           ]
         },
